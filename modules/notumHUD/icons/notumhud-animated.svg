@@ -1,0 +1,37 @@
+<!-- /RubiKit/modules/NotumHUD/icons/notumhud-animated.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc" fill="none" stroke="#CFE9FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title id="title">NotumHUD Icon (Animated)</title>
+  <desc id="desc">Notum shard with rotating radar sweep.</desc>
+
+  <style>
+    :root { --accent-color: #7CD3FF; }
+    .accent { stroke: var(--accent-color); stroke-opacity: 0.65; }
+    .sweep  { transform-origin: 64px 64px; animation: rk-spin 3.6s linear infinite; }
+    @keyframes rk-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .sweep { animation: none; } }
+  </style>
+
+  <!-- HUD ring -->
+  <circle cx="64" cy="64" r="50"></circle>
+
+  <!-- Rotating radar arc -->
+  <g class="accent sweep">
+    <!-- narrow arc (like a radar wedge) -->
+    <path d="M64 14
+             A50 50 0 0 1 103 64" stroke-width="8" stroke-linecap="round"></path>
+  </g>
+
+  <!-- Static accent ticks -->
+  <g class="accent">
+    <path d="M95 64a31 31 0 0 0-9.1-22"></path>
+    <path d="M102 64a38 38 0 0 0-11.2-27"></path>
+  </g>
+
+  <!-- Notum shard -->
+  <g>
+    <path d="M64 28 L78 46 L72 82 L64 100 L56 82 L50 46 Z"></path>
+    <path d="M64 28 L64 100"></path>
+    <path d="M50 46 L64 62 L78 46"></path>
+    <path d="M56 82 L64 70 L72 82"></path>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "id": "notumhud",
+  "name": "NotumHUD",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "description": "Overlay HUD for AO stats with live metrics.",
+  "author": "RubiKit",
+  "tags": ["hud", "overlay", "metrics"],
+  "icon": "icons/notumhud-animated.svg"
+}
