@@ -34,5 +34,6 @@ A sleek, customizable, and real-time heads-up display (HUD) for viewing your cha
 * **Advanced Diagnostics:** An optional slide-up panel provides tools to manage the connection port, scan for the API, and view raw data payloads for troubleshooting.
 
 
-Contact:
-Discord - YellowUmbrellaGroup#8576
+## Contact
+
+Discord: **YellowUmbrellaGroup#8576**
